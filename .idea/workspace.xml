@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2442c5a-c18b-4a10-9ac4-70729d4f9981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/WelcomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/event/listener/RegistrationCompleteEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/event/listener/RegistrationCompleteEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/VerificationTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/VerificationTokenRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
