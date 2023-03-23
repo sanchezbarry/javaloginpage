@@ -18,6 +18,7 @@ public class WebSecurityConfig {
             "/register",
             "/welcome",
             "/verifyRegistration*",
+            "/resendVerifyToken*"
     };
     @Bean
     public PasswordEncoder passwordEncoder() {

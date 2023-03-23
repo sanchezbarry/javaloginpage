@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2442c5a-c18b-4a10-9ac4-70729d4f9981" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/entity/PasswordToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/model/PasswordModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/PasswordTokenRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -84,5 +91,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/entity/VerificationToken.java</url>
+          <line>27</line>
+          <properties field="user" class="com.example.LoginPage.entity.VerificationToken" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

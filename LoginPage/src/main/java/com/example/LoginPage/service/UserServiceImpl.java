@@ -1,8 +1,10 @@
 package com.example.LoginPage.service;
 
+import com.example.LoginPage.entity.PasswordToken;
 import com.example.LoginPage.entity.VerificationToken;
 import com.example.LoginPage.model.UserModel;
 import com.example.LoginPage.entity.User;
+import com.example.LoginPage.repository.PasswordTokenRepository;
 import com.example.LoginPage.repository.UserRepository;
 import com.example.LoginPage.repository.VerificationTokenRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Calendar;
+import java.util.UUID;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -21,6 +24,8 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private PasswordEncoder passwordEncoder;
+    @Autowired
+    private PasswordTokenRepository passwordTokenRepository;
 
     @Override
     public User registerUser(UserModel userModel) {
@@ -62,5 +67,24 @@ public class UserServiceImpl implements UserService {
         user.setEnabled(true);
         userRepository.save(user);
         return "valid";
+    }
+
+    @Override
+    public VerificationToken generateNewToken(String oldToken) {
+        VerificationToken verificationToken = verificationTokenRepository.findByToken(oldToken);
+        verificationToken.setToken(UUID.randomUUID().toString());
+        verificationTokenRepository.save(verificationToken);
+        return verificationToken;
+    }
+
+    @Override
+    public User findUserByEmail(String email) {
+        return userRepository.findByEmail(email);
+    }
+
+    @Override
+    public void createPasswordResetToken(User user, String token) {
+        PasswordToken passwordToken = new PasswordToken(user,token);
+        passwordTokenRepository.save(passwordToken);
     }
 }
