@@ -4,6 +4,8 @@ import com.example.LoginPage.entity.User;
 import com.example.LoginPage.entity.VerificationToken;
 import com.example.LoginPage.model.UserModel;
 
+import java.util.Optional;
+
 public interface UserService {
     User registerUser(UserModel userModel);
 
@@ -16,4 +18,8 @@ public interface UserService {
     User findUserByEmail(String email);
 
     void createPasswordResetToken(User user, String token);
+
+    String validatePasswordToken(String token);
+
+    Optional<User> getUserByPasswordToken(String token);
 }

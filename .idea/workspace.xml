@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2442c5a-c18b-4a10-9ac4-70729d4f9981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/entity/PasswordToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/model/PasswordModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/PasswordTokenRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/model/PasswordModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/model/PasswordModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/PasswordTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/PasswordTokenRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImpl.java" afterDir="false" />
     </list>
