@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2442c5a-c18b-4a10-9ac4-70729d4f9981" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/OauthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/service/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/test/java/com/example/oauth/OauthApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/model/PasswordModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/model/PasswordModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/PasswordTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/repository/PasswordTokenRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,6 +68,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.oauth.repository" />
+      <recent name="com.example.oauth.entity" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="LoginPageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.LoginPage.LoginPageApplication" />

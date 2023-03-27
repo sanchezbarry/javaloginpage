@@ -16,6 +16,7 @@
 
     <modules>
         <module>LoginPage</module>
+        <module>Oauth-authorization-server</module>
     </modules>
 
 </project>

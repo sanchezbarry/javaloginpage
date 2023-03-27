@@ -113,4 +113,15 @@ public class UserServiceImpl implements UserService {
     public Optional<User> getUserByPasswordToken(String token) {
         return Optional.ofNullable(passwordTokenRepository.findByToken(token).getUser());
     }
+
+    @Override
+    public void changePassword(User user, String newPassword) {
+        user.setPassword(passwordEncoder.encode(newPassword));
+        userRepository.save(user);
+    }
+
+    @Override
+    public boolean checkValidOldPassword(User user, String oldPassword) {
+        return passwordEncoder.matches(oldPassword, user.getPassword());
+    }
 }

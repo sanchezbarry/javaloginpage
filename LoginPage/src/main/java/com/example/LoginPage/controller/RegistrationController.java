@@ -10,6 +10,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.security.core.parameters.P;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
@@ -71,16 +72,28 @@ public class RegistrationController {
         }
         Optional<User> user = userService.getUserByPasswordToken(token);
         if(user.isPresent()) {
+            userService.changePassword(user.get(), passwordModel.getNewPassword());
             return "Password changed successfully";
         } else {
             return "Invalid Token";
         }
+    }
+    @PostMapping("/changePassword")
+    public String changePassword(@RequestBody PasswordModel passwordModel){
+        User user = userService.findUserByEmail(passwordModel.getEmail());
+        if(!userService.checkValidOldPassword(user,passwordModel.getOldPassword())){
+            return "Old Password is wrong";
+        }
+        //save new pw
+        userService.changePassword(user,passwordModel.getNewPassword());
+        return "Password changed successfully";
     }
     private String passwordRestTokenMail(User user, String applicationUrl, String token) {
         String url = applicationUrl + "/savePassword?token=" + token;
 
         //send verification (fake)
         log.info("Click the link to reset password: {}",url);
+        return url;
     }
 
     private void resendVerificationTokenMail(User user, String applicationUrl, VerificationToken verificationToken) {
