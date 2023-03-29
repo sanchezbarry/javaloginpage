@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2442c5a-c18b-4a10-9ac4-70729d4f9981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/OauthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/service/CustomUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/test/java/com/example/oauth/OauthApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/config/AuthorizationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/config/DefaultSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/service/CustomAuthenticationProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/service/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/service/CustomUserDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +64,7 @@
       <recent name="com.example.oauth.entity" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LoginPageApplication">
     <configuration name="LoginPageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.LoginPage.LoginPageApplication" />
       <module name="LoginPage (1) (com.example)" />
@@ -88,9 +78,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OauthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.oauth.OauthApplication" />
+      <module name="oauth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.oauth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LoginPageApplication" />
+        <item itemvalue="Application.OauthApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +120,11 @@
           <line>27</line>
           <properties field="user" class="com.example.LoginPage.entity.VerificationToken" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/OauthApplication.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
