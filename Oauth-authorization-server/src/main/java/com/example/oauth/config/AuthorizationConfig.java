@@ -32,10 +32,10 @@ import java.util.UUID;
 @Configuration(proxyBeanMethods = false)
 public class AuthorizationConfig {
 
+
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    //applies the default security with the boilerplate code - most of this code is taken from the official spring security team.
     @Bean
     @Order(Ordered.HIGHEST_PRECEDENCE)
     public SecurityFilterChain authServerSecurityFilterChain(HttpSecurity http) throws Exception {

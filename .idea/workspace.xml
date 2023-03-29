@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2442c5a-c18b-4a10-9ac4-70729d4f9981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/config/AuthorizationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/config/DefaultSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/service/CustomAuthenticationProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoginPage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/java/com/example/LoginPage/controller/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginPage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginPage/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/service/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/service/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/config/AuthorizationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/config/AuthorizationConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +59,8 @@
       <recent name="com.example.oauth.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginPageApplication">
-    <configuration name="LoginPageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.OauthApplication">
+    <configuration name="LoginPageApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.LoginPage.LoginPageApplication" />
       <module name="LoginPage (1) (com.example)" />
       <extension name="coverage">
@@ -78,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OauthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OauthApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.oauth.OauthApplication" />
       <module name="oauth" />
       <extension name="coverage">
@@ -91,12 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.LoginPageApplication" />
-        <item itemvalue="Application.OauthApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -121,12 +110,12 @@
           <properties field="user" class="com.example.LoginPage.entity.VerificationToken" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/example/oauth/OauthApplication.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LoginPage$OauthApplication.ic" NAME="OauthApplication Coverage Results" MODIFIED="1680084331729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.oauth.*</FILTER>
+    </SUITE>
   </component>
 </project>
